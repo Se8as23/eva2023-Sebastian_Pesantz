@@ -1,0 +1,16 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(155, 56, 56);
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+}
