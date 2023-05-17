@@ -4,12 +4,11 @@ import { CommonModule } from '@angular/common';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { MenuComponent } from './menu/menu.component';
-import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
 
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [CommonModule,CabeceraComponent,MenuComponent,PiePaginaComponent],
+  imports: [CommonModule,CabeceraComponent,MenuComponent],
   templateUrl: `./inicio.html`,
 })
 export class App {
